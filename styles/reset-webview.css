@@ -10,7 +10,7 @@
 
 .luna-dom-highlighter-platform-mac {
   color: #303942;
-  font-family: '.SFNSDisplay-Regular','Helvetica Neue','Lucida Grande',sans-serif;
+  font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif;
 }
 
 .luna-dom-highlighter {
@@ -24,7 +24,9 @@
   font-size: 13px;
 }
 
-.__chobitsu-hide__, .luna-dom-highlighter, .luna-dom-highlighter-platform-mac {
+.__chobitsu-hide__,
+.luna-dom-highlighter,
+.luna-dom-highlighter-platform-mac {
   display: block;
   border: none;
   margin: 0;
