@@ -1,6 +1,6 @@
 /*
 1. Link CSS style sheet in HTML <head> tags (DONE)
-2. Add style rules for any headings, paragraphs, and links 
+2. Add style rules for any headings, paragraphs, and links (DONE)
 3. Use at least SIX unique CSS properties to style your page 
 4. Create at lease THREE unique class or id selectors to style a header on your page 
 5. Use border, padding, and margin to update your page layout
@@ -49,10 +49,12 @@ h3 {
 }
 
 p {
-  text-align:left;
+  font-size: 17px;
+  text-align: left;
 }
-
-a {}
+a:hover{
+  color:green;
+}
 
 
 /*
@@ -94,8 +96,8 @@ button {
 
 /* Example: This styles elements with class="header"*/
 .header {
-  
-  .header2{
+
+  .header2 {
     text-align: center;
   }
 }
