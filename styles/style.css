@@ -1,4 +1,108 @@
-html {
-  height: 100%;
-  width: 100%;
+/*
+1. Link CSS style sheet in HTML <head> tags (DONE)
+2. Add style rules for any headings, paragraphs, and links 
+3. Use at least SIX unique CSS properties to style your page 
+4. Create at lease THREE unique class or id selectors to style a header on your page 
+5. Use border, padding, and margin to update your page layout
+*/
+
+
+html,
+body {
+  color: darkgoldenrod;
+  background-color: beige;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 115%;
+
+  .header-button {
+    padding: 0.5px;
+    margin: 1px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    color: black;
+  }
 }
+
+body {
+
+  /* background color */
+  background-color: aqua;
+
+  /* Customize the font, size, and color for text*/
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+
+  /* Adjust the padding and margins */
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+}
+
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+p {}
+
+a {}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {}
+
+ol li {}
+
+
+ul {}
+
+ul li {}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header {}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img {}
