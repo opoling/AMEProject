@@ -5,61 +5,52 @@
 4. Create at lease THREE unique class or id selectors to style a header on your page 
 5. Use border, padding, and margin to update your page layout
 */
-
-
-html,
-body {
-  color: darkgoldenrod;
-  background-color: beige;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 115%;
-
-  .header-button {
-    padding: 0.5px;
-    margin: 1px;
-    background-color: darkgoldenrod;
-    text-align: center;
-    color: black;
-  }
-}
-
 body {
 
   /* background color */
-  background-color: aqua;
-
+  background-color: beige;
   /* Customize the font, size, and color for text*/
-  font-family: Arial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
-  color: black;
+  color: darkgoldenrod;
+  text-align: center;
 
   /* Adjust the padding and margins */
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  padding-top: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
 
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
 
 }
-
-
 
 /*
   Style Text: Add style rules for any headings (h1-6),
   paragraphs and links
 */
 
-h1 {}
+h1 {
+  font-size: 46px;
+}
 
-h2 {}
+h2 {
+  font-size: 36px;
+  text-decoration-line: underline;
+}
 
-h3 {}
+h3 {
+  font-size: 26px;
+  font-style: italic;
+  text-align: left;
+}
 
-p {}
+p {
+  text-align:left;
+}
 
 a {}
 
@@ -72,36 +63,42 @@ a {}
 
 ol {}
 
-ol li {}
+ol li {
+  text-align: left;
+}
 
 
 ul {}
 
-ul li {}
+ul li {
+  text-align: left;
+}
 
 
 /*
   Style Buttons: Add style rules for any headings (h1-6),
   paragraphs and links
 */
-
 button {
-  background-color: #008CBA;
-  border: none;
-  color: white;
-  font-size: 16px;
+  background-color: sandybrown;
+  border: ;
+  color: black;
+  font-size: 10px;
   text-align: center;
-  padding: 15px 32px;
+  padding: 9px 20px;
   cursor: pointer;
 }
-
-
 
 /* Select and style elements by class name or ID */
 
 
 /* Example: This styles elements with class="header"*/
-.header {}
+.header {
+  
+  .header2{
+    text-align: center;
+  }
+}
 
 
 /* Example: This styles an element with an id="header-img" */
